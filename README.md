@@ -1,2 +1,2 @@
 # hangman-game
-Lab for GA Seattle
+Lab for GA Seattle SEI29
