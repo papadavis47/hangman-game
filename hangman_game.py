@@ -61,7 +61,7 @@ while mistakes < 7:
         for i, x in enumerate(list_word):
             if x == guess:
                 letter_holder[i] = guess
-                
+
         print(correct.join(letter_holder))
 
         if correct.join(letter_holder) == secret_word:
@@ -74,7 +74,6 @@ while mistakes < 7:
         the_hanging += deadman[mistakes - 1] + "\n"
         print(the_hanging)
         if mistakes == 7:
-            # print(the_hanging)
             print("\n")
             print("That was 7!")
             print("The secret word was " + "-- " + secret_word)
